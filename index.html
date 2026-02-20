@@ -1,3 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakub Krzysiak | Level Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  commit
+
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    <label for="menu-toggle" class="menu-overlay"></label>
+    <label for="menu-toggle" class="menu-btn">≡ VIEW PROFILE</label>
+
+    <header class="masthead">
+        <h1>Jakub Krzysiak</h1>
+        <div class="subtitle">LEVEL DESIGNER</div>
+    </header>
+
+    <main class="newspaper-grid">
+        
+        <aside class="left-column">
+            
+            <label for="menu-toggle" class="close-btn">✕ CLOSE PROFILE</label>
+
+            <div class="author-portrait">
+                <img src="https://via.placeholder.com/400x500/c4b59d/3a3630?text=[PORTRAIT]" alt="Jakub Krzysiak Portrait">
+            </div>
+
+            <a href="#" class="resume-btn brass-sweep">VIEW RESUME / CV</a>
+
+            <section class="editorial">
+                <h2>About Me</h2>
+                <p class="drop-cap">I</p>
+                <p>[Insert your first paragraph here. Describe your background, your design philosophy, or what drives your work. This section sets the tone for your entire portfolio.]</p>
+                <p>[Insert your second paragraph here. Elaborate on your specific approach to level design, architecture, or the specific genres you are passionate about.]</p>
+            </section>
+
+            <section class="directory">
+                <h2>Skills</h2>
+                
+                <h3>Tools</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">[Skill]</span>
+                    <span class="skill-tag">[Skill]</span>
+                    <span class="skill-tag">[Skill]</span>
+                    <span class="skill-tag">[Skill]</span>
+                </div>
+
+                <h3>Disciplines</h3>
+                <div class="skills-container">
+                    <span class="skill-tag">[Skill]</span>
+                    <span class="skill-tag">[Skill]</span>
+                    <span class="skill-tag">[Skill]</span>
+                </div>
+            </section>
+
+        </aside>
+
+        <section class="right-column">
+            
+            <h2 class="section-heading">Selected Projects</h2>
+
+            <article class="news-article">
+                <div class="article-header">
+                    <h3 class="headline">[PROJECT 1 TITLE]</h3>
+                    <div class="meta-tags">
+                        <div class="meta-tag"><span class="meta-label">ROLE</span><span class="meta-value">[Level Designer]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TEAM</span><span class="meta-value">[Size]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TIME</span><span class="meta-value">[Duration]</span></div>
+                    </div>
+                </div>
+                <div class="article-body-two-col">
+                    <div class="col-visual">
+                        <div class="gallery-wrapper">
+                            <div class="gallery-scroll">
+                                <img src="https://via.placeholder.com/600x600?text=[IMAGE+1]" alt="Project 1 Image" class="gallery-item">
+                                <img src="https://via.placeholder.com/600x600/5a554c/d9ccb9?text=[IMAGE+2]" alt="Project 1 Image" class="gallery-item">
+                            </div>
+                        </div>
+                        <a href="#" class="play-btn brass-sweep">VIEW DETAILS</a>
+                    </div>
+                    <div class="col-details">
+                        <div class="tab-system">
+                            <input type="radio" name="proj1-tabs" id="proj1-tab1" checked>
+                            <input type="radio" name="proj1-tabs" id="proj1-tab2">
+                            <input type="radio" name="proj1-tabs" id="proj1-tab3">
+                            <div class="tab-headers">
+                                <label for="proj1-tab1">The Brief</label>
+                                <label for="proj1-tab2">Challenges</label>
+                                <label for="proj1-tab3">Skills</label>
+                            </div>
+                            <div class="tab-content" id="proj1-content1">
+                                <p>[Insert brief overview of the project, core concept, and responsibilities.]</p>
+                            </div>
+                            <div class="tab-content" id="proj1-content2">
+                                <div class="solution-grid">
+                                    <div class="grid-header header-problem">THE PROBLEM</div>
+                                    <div class="grid-header header-solution">THE SOLUTION</div>
+                                    <div class="grid-cell problem-cell"><p>[Challenge 1]</p></div>
+                                    <div class="grid-cell solution-cell"><p>[Solution 1]</p></div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="proj1-content3">
+                                <ul class="skills-list">
+                                    <li><strong>[Skill Name]:</strong> [Description of application.]</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <hr class="article-divider">
+
+            <article class="news-article">
+                <div class="article-header">
+                    <h3 class="headline">[PROJECT 2 TITLE]</h3>
+                    <div class="meta-tags">
+                        <div class="meta-tag"><span class="meta-label">ROLE</span><span class="meta-value">[Level Designer]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TEAM</span><span class="meta-value">[Size]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TIME</span><span class="meta-value">[Duration]</span></div>
+                    </div>
+                </div>
+                <div class="article-body-two-col">
+                    <div class="col-visual">
+                        <div class="gallery-wrapper">
+                            <div class="gallery-scroll">
+                                <img src="https://via.placeholder.com/600x600?text=[IMAGE+1]" alt="Project 2 Image" class="gallery-item">
+                            </div>
+                        </div>
+                        <a href="#" class="play-btn brass-sweep">VIEW DETAILS</a>
+                    </div>
+                    <div class="col-details">
+                        <div class="tab-system">
+                            <input type="radio" name="proj2-tabs" id="proj2-tab1" checked>
+                            <input type="radio" name="proj2-tabs" id="proj2-tab2">
+                            <input type="radio" name="proj2-tabs" id="proj2-tab3">
+                            <div class="tab-headers">
+                                <label for="proj2-tab1">The Brief</label>
+                                <label for="proj2-tab2">Challenges</label>
+                                <label for="proj2-tab3">Skills</label>
+                            </div>
+                            <div class="tab-content" id="proj2-content1">
+                                <p>[Insert brief overview of the project, core concept, and responsibilities.]</p>
+                            </div>
+                            <div class="tab-content" id="proj2-content2">
+                                <div class="solution-grid">
+                                    <div class="grid-header header-problem">THE PROBLEM</div>
+                                    <div class="grid-header header-solution">THE SOLUTION</div>
+                                    <div class="grid-cell problem-cell"><p>[Challenge 1]</p></div>
+                                    <div class="grid-cell solution-cell"><p>[Solution 1]</p></div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="proj2-content3">
+                                <ul class="skills-list">
+                                    <li><strong>[Skill Name]:</strong> [Description of application.]</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <hr class="article-divider">
+
+            <article class="news-article">
+                <div class="article-header">
+                    <h3 class="headline">[PROJECT 3 TITLE]</h3>
+                    <div class="meta-tags">
+                        <div class="meta-tag"><span class="meta-label">ROLE</span><span class="meta-value">[Level Designer]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TEAM</span><span class="meta-value">[Size]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TIME</span><span class="meta-value">[Duration]</span></div>
+                    </div>
+                </div>
+                <div class="article-body-two-col">
+                    <div class="col-visual">
+                        <div class="gallery-wrapper">
+                            <div class="gallery-scroll">
+                                <img src="https://via.placeholder.com/600x600?text=[IMAGE+1]" alt="Project 3 Image" class="gallery-item">
+                            </div>
+                        </div>
+                        <a href="#" class="play-btn brass-sweep">VIEW DETAILS</a>
+                    </div>
+                    <div class="col-details">
+                        <div class="tab-system">
+                            <input type="radio" name="proj3-tabs" id="proj3-tab1" checked>
+                            <input type="radio" name="proj3-tabs" id="proj3-tab2">
+                            <input type="radio" name="proj3-tabs" id="proj3-tab3">
+                            <div class="tab-headers">
+                                <label for="proj3-tab1">The Brief</label>
+                                <label for="proj3-tab2">Challenges</label>
+                                <label for="proj3-tab3">Skills</label>
+                            </div>
+                            <div class="tab-content" id="proj3-content1">
+                                <p>[Insert brief overview of the project, core concept, and responsibilities.]</p>
+                            </div>
+                            <div class="tab-content" id="proj3-content2">
+                                <div class="solution-grid">
+                                    <div class="grid-header header-problem">THE PROBLEM</div>
+                                    <div class="grid-header header-solution">THE SOLUTION</div>
+                                    <div class="grid-cell problem-cell"><p>[Challenge 1]</p></div>
+                                    <div class="grid-cell solution-cell"><p>[Solution 1]</p></div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="proj3-content3">
+                                <ul class="skills-list">
+                                    <li><strong>[Skill Name]:</strong> [Description of application.]</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <hr class="article-divider">
+
+            <article class="news-article">
+                <div class="article-header">
+                    <h3 class="headline">[PROJECT 4 TITLE]</h3>
+                    <div class="meta-tags">
+                        <div class="meta-tag"><span class="meta-label">ROLE</span><span class="meta-value">[Level Designer]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TEAM</span><span class="meta-value">[Size]</span></div>
+                        <div class="meta-tag"><span class="meta-label">TIME</span><span class="meta-value">[Duration]</span></div>
+                    </div>
+                </div>
+                <div class="article-body-two-col">
+                    <div class="col-visual">
+                        <div class="gallery-wrapper">
+                            <div class="gallery-scroll">
+                                <img src="https://via.placeholder.com/600x600?text=[IMAGE+1]" alt="Project 4 Image" class="gallery-item">
+                            </div>
+                        </div>
+                        <a href="#" class="play-btn brass-sweep">VIEW DETAILS</a>
+                    </div>
+                    <div class="col-details">
+                        <div class="tab-system">
+                            <input type="radio" name="proj4-tabs" id="proj4-tab1" checked>
+                            <input type="radio" name="proj4-tabs" id="proj4-tab2">
+                            <input type="radio" name="proj4-tabs" id="proj4-tab3">
+                            <div class="tab-headers">
+                                <label for="proj4-tab1">The Brief</label>
+                                <label for="proj4-tab2">Challenges</label>
+                                <label for="proj4-tab3">Skills</label>
+                            </div>
+                            <div class="tab-content" id="proj4-content1">
+                                <p>[Insert brief overview of the project, core concept, and responsibilities.]</p>
+                            </div>
+                            <div class="tab-content" id="proj4-content2">
+                                <div class="solution-grid">
+                                    <div class="grid-header header-problem">THE PROBLEM</div>
+                                    <div class="grid-header header-solution">THE SOLUTION</div>
+                                    <div class="grid-cell problem-cell"><p>[Challenge 1]</p></div>
+                                    <div class="grid-cell solution-cell"><p>[Solution 1]</p></div>
+                                </div>
+                            </div>
+                            <div class="tab-content" id="proj4-content3">
+                                <ul class="skills-list">
+                                    <li><strong>[Skill Name]:</strong> [Description of application.]</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <hr class="article-divider">
+
+            <h2 class="section-heading">Other Projects</h2>
+            
+            <article class="news-article">
+                <div class="article-header">
+                    <h3 class="headline">[OTHER PROJECT TITLE]</h3>
+                    <div class="meta-tags">
+                        <div class="meta-tag"><span class="meta-label">ROLE</span><span class="meta-value">[Level Designer]</span></div>
+                        <div class="meta-tag"><span class="meta-label">CONTEXT</span><span class="meta-value">[Game Jam / Personal]</span></div>
+                    </div>
+                </div>
+                <div class="article-body-two-col">
+                    <div class="col-visual">
+                        <div class="gallery-wrapper">
+                            <div class="gallery-scroll">
+                                <img src="https://via.placeholder.com/600x600?text=[IMAGE+1]" alt="Project 5 Image" class="gallery-item">
+                            </div>
+                        </div>
+                        <a href="#" class="play-btn brass-sweep">PLAY DEMO</a>
+                    </div>
+                    <div class="col-details">
+                        <div class="tab-system">
+                            <input type="radio" name="proj5-tabs" id="proj5-tab1" checked>
+                            <input type="radio" name="proj5-tabs" id="proj5-tab2">
+                            <div class="tab-headers">
+                                <label for="proj5-tab1">Overview</label>
+                                <label for="proj5-tab2">What I Learned</label>
+                            </div>
+                            <div class="tab-content" id="proj5-content1">
+                                <p>[Insert brief overview of this smaller project or game jam entry.]</p>
+                            </div>
+                            <div class="tab-content" id="proj5-content2">
+                                <p>[Discuss the specific mechanic or workflow you experimented with here.]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="broadsheet-footer">
+        <div class="footer-title">Jakub Krzysiak</div>
+        <p>Available for new opportunities in level design and world architecture.</p>
+        <div class="footer-links">
+            <a href="mailto:your@email.com">Email</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">ArtStation</a>
+        </div>
+        <p class="copyright">© 2026 Jakub Krzysiak. All rights reserved.</p>
+    </footer>
+
 </body>
+</html>
