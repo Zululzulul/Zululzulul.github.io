@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202124">
+  <meta name="description" content="Game design portfolio by Jakub Krzysiak. Level design, technical design and narrative design through selected projects and case studies.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jakub Krzysiak — Game Designer">
+  <meta property="og:description" content="Game design portfolio by Jakub Krzysiak. Level design, technical design and narrative design through selected projects and case studies.">
+  <title>Jakub Krzysiak — Game Designer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23202124'/%3E%3Cpath d='M18 12h21l7 7v33H18z' fill='none' stroke='%23e9e7e1' stroke-width='3'/%3E%3Cpath d='M25 29h14M25 37h14M25 45h9' stroke='%23e4bf45' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="header-inner container">
+      <a class="identity" href="#home" aria-label="Jakub Krzysiak, home">
+        <span class="identity-name">Jakub Krzysiak<span>Game Designer</span></span>
+      </a>
+      <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="button button-small cv-link" data-cv href="mailto:jake.krzysiak@gmail.com?subject=CV%20request"><span data-cv-label>Request CV</span><span class="file-icon" aria-hidden="true"></span></a>
+      </nav>
+      </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <div id="home-view">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+          <div class="hero-inner container">
+          <div class="hero-heading">
+            <p class="eyebrow hero-eyebrow"><span class="hero-mark" aria-hidden="true"></span> Game Designer</p>
+            <h1 id="hero-title">Jakub<br><span>Krzysiak</span></h1>
+          </div>
+          <div class="hero-aside">
+            <p class="eyebrow hero-note-label">Design focus</p>
+            <p class="hero-intro" data-design-focus>Combining engaging gameplay with immersive, narrative-driven experiences that make you think.</p>
+            <a class="button button-primary" href="#work">View selected work</a>
+          </div>
+          <div class="hero-colophon"><span>Warsaw, Poland</span></div>
+          </div>
+        </section>
+
+        <section class="work section-block container" id="work" aria-labelledby="work-title">
+          <div class="section-heading">
+            <div class="numbered-heading"><span class="section-number">I.</span><h2 id="work-title">Selected work</h2></div>
+            <p class="project-count sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+          <div class="work-toolbar"><div class="project-filters" id="project-filters" role="group" aria-label="Filter projects"></div></div>
+          <div class="project-grid" id="project-grid"></div>
+          <noscript><p>Please enable JavaScript to view the project cards and case studies. You can also contact me using the email link below.</p></noscript>
+        </section>
+
+        <section class="about section-block container" id="about" aria-labelledby="about-title">
+          <div class="about-heading"><div class="numbered-heading"><span class="section-number">II.</span><h2 id="about-title">About</h2></div><p class="about-location">Game Designer<br>Warsaw, Poland</p></div>
+          <div class="about-content">
+            <p class="about-intro">I study Game Design at<br>Futuregames Warsaw.</p>
+            <div class="about-columns"><p>I work on team projects, game jams and focused design exercises using Unreal Engine, Godot and Unity.</p><p>My favourite genre is immersive sims. I’m interested in systems that give players room to experiment, and mechanics that carry the narrative.</p></div>
+            <div class="toolkit"><span class="eyebrow">Tools I work with</span><ul aria-label="Game engines"><li>Unreal Engine</li><li>Godot</li><li>Unity</li></ul></div>
+          </div>
+        </section>
+      </div>
+
+      <article id="project-view" class="container" hidden aria-labelledby="project-title"></article>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner container"><div><p class="eyebrow">III. / Get in touch</p><h2 id="contact-title">Contact.</h2></div><div class="contact-links"><a class="contact-email" data-email href="mailto:jake.krzysiak@gmail.com">jake.krzysiak@gmail.com</a><div class="contact-other"><a data-linkedin href="https://www.linkedin.com/in/jakub--krzysiak/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a><a class="cv-link" data-cv href="mailto:jake.krzysiak@gmail.com?subject=CV%20request"><span data-cv-label>Request CV</span><span class="file-icon" aria-hidden="true"></span></a></div></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer container"><span>© <span id="year">2026</span> Jakub Krzysiak</span><a href="#home">Back to top</a></footer>
+  </div>
+
+  <dialog id="media-dialog" class="media-dialog" aria-labelledby="media-title">
+    <div class="dialog-top"><h2 id="media-title">Gameplay</h2><button class="dialog-close" aria-label="Close video" type="button">×</button></div>
+    <div id="media-content"></div>
+  </dialog>
+</body>
+</html>
