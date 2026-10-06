@@ -8,7 +8,7 @@ window.PORTFOLIO = {
   "name": "Jakub Krzysiak",
   "email": "jake.krzysiak@gmail.com",
   "linkedin": "https://www.linkedin.com/in/jakub--krzysiak/",
-  "cvUrl": "",
+  "cvUrl": "assets/Jakub-Krzysiak-CV.pdf",
   "projects": [
     {
       "id": "greg-the-frog",
